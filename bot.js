@@ -5,7 +5,7 @@ import asyncio
 from discord.utils import get
 
 Bot = commands.Bot(command_prefix='.')
-TOKEN = BOT_TOKEN
+TOKEN = "BOT_TOKEN"
 
 Bot.remove_command('help')
 
